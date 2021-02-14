@@ -1,9 +1,10 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "../src/components/navbar";
 function App() {
   return (
     <div>
-      <h1>Yifeng Portfolio</h1>
+      <Navbar />
     </div>
   );
 }
