@@ -98,7 +98,18 @@ nav div ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(./images/wall-and-laptop-background.jpg) no-repeat;
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -119,7 +130,7 @@ nav div ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--primary-white);
   text-transform: uppercase;
 }
 
@@ -171,5 +182,29 @@ nav div ul li {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/*********************************About Me******************************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-photo {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.About-Me-Heading {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+@media (max-width: 468px) {
+  .profile-photo {
+    width: 10rem;
   }
 }
