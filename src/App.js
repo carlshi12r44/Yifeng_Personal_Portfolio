@@ -8,7 +8,7 @@ import Experience from "../src/components/experience";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ""}>
       <div>
         <Switch>
           <Route path="/" exact component={Main} />
