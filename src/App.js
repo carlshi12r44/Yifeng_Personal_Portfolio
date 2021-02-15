@@ -9,7 +9,7 @@ import Experience from "../src/components/experience";
 function App() {
   return (
     /** */
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Switch>
           <Route path="/" exact component={Main} />
