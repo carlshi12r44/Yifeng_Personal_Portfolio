@@ -8,7 +8,7 @@ import Experience from "../src/components/experience";
 
 function App() {
   return (
-    /** */
+    /** Added such basename that make sure the app is hosted under this sub directory */
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <Switch>
