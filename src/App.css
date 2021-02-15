@@ -214,6 +214,42 @@ nav div ul li {
   display: flex;
   justify-content: center;
 }
+
+.My-Stack .box {
+  height: 18rem;
+  padding: 0.625rem;
+  margin-bottom: 2rem;
+  background: var(--primary-white);
+  transition: 0.3s ease-in-out;
+}
+
+.My-Stack .circle-up {
+  animation: MoveUpDown 3s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5625rem);
+  }
+}
+
+.My-Stack .circle-down {
+  animation: MoveDownUp 3s linear infinite;
+}
+@keyframes MoveDownUp {
+  0%,
+  100% {
+    transform: translateY(-1.5625rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
 .My-Stack-Heading {
   text-align: center;
   text-transform: uppercase;
