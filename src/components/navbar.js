@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
 const navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -21,14 +21,14 @@ const navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto text-md-cenetr text-left">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <Link className="nav-link" to="/about">
                 About Me
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="#">
@@ -36,9 +36,9 @@ const navbar = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="/experience">
+              <Link className="nav-link" to="/experience">
                 Experience
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="#">

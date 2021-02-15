@@ -9,7 +9,7 @@ import Experience from "../src/components/experience";
 function App() {
   return (
     /** */
-    <BrowserRouter basename="/src">
+    <BrowserRouter>
       <div>
         <Switch>
           <Route path="/" exact component={Main} />
