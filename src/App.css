@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -7,6 +7,8 @@ body {
 :root {
   --primary-white: #ffffff;
   --primary-orange: #f9ab00;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -109,7 +111,6 @@ nav div ul li {
     #f5af19,
     #f12711
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   background-size: cover;
   background-position: center;
   height: 95vh;
@@ -206,5 +207,124 @@ nav div ul li {
 @media (max-width: 468px) {
   .profile-photo {
     width: 10rem;
+  }
+}
+/*********************************My Stack******************************/
+.My-Stack .row {
+  display: flex;
+  justify-content: center;
+}
+.My-Stack-Heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-orange);
+  margin-bottom: 5%;
+}
+
+.reactLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.JSLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.CSSLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.HTMLLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.MySQLLogo {
+  width: 150px;
+  height: 100px;
+}
+
+/*********************************Experience******************************/
+.experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-dark);
+  background: var(--primary-orange);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+}
+
+.timeline-content > h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-red);
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .experience .container {
+    padding-left: 0;
+  }
+
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    width: 100%;
+    float: none;
+    direction: ltr;
   }
 }
