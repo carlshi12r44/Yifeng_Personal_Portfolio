@@ -204,6 +204,18 @@ nav div ul li {
   color: var(--primary-orange);
 }
 
+.GitHubLogo {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.LinkedinLogo {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+}
+
 @media (max-width: 468px) {
   .profile-photo {
     width: 10rem;

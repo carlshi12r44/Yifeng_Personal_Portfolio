@@ -1,6 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-
 const header = () => {
   return (
     <div className="header-wrapper">
@@ -18,7 +17,7 @@ const header = () => {
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <a href="/about" className="btn-main-offer">
           Contact Me
         </a>
       </div>
