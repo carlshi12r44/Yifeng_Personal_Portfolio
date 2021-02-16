@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../images/yifeng_avatar.jpg";
+import author from "../images/yifeng_photo.jpeg";
 import GithubLogo from "../images/GitHub_logo.png";
 import LinkedInLogo from "../images/Linkedin_logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
