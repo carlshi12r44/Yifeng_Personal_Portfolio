@@ -12,7 +12,7 @@ const experience = () => {
           <div className="timeline-block timeline-block-right">
             <div className="marker"></div>
             <div className="timeline-content">
-              <h3>Aug 2020-Current</h3>
+              <h3>Aug 2020-Now</h3>
               <h4>Heirloom Media Inc, Full Stack Intern</h4>
               <p>
                 <ul class="list-group">
