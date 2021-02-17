@@ -14,6 +14,7 @@ const experience = () => {
             <div className="timeline-content">
               <h3>Aug 2020-Now</h3>
               <h4>Heirloom Media Inc, Full Stack Intern</h4>
+              <a href="https://heirloom.to/" target="_blank">https://heirloom.to/</a>
               <p>
                 <ul class="list-group">
                   <li class="list-group-item border-0">
@@ -47,6 +48,7 @@ const experience = () => {
             <div className="timeline-content">
               <h3>May 2019-Aug 2019</h3>
               <h4>NanTu Technology, Software Engineer Intern</h4>
+              <a href="https://nantutech.com/en.html" target="_blank">https://nantutech.com/en.html</a>
               <p>
                 <ul class="list-group">
                   <li class="list-group-item border-0">
