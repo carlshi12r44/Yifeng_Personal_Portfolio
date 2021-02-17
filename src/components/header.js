@@ -10,17 +10,17 @@ const header = () => {
           className="typed-text"
           strings={[
             "UI/UX designer",
-            "Web developmer",
-            "Future Data Scientists",
+            "Web developer",
+            "Future Data Scientist",
             "Passionate about cutting-edge technology",
           ]}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
-        <Link href="/about" className="btn-main-offer">
+        {/* <Link href="/about" className="btn-main-offer">
           Contact Me
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
