@@ -376,3 +376,14 @@ nav div ul li {
     direction: ltr;
   }
 }
+
+/*********************************portfolio******************************/
+.portfolio-wrapper {
+  background: var(--primary-white);
+  padding: 3rem 0;
+}
+
+.card-img-to {
+  width: 100%;
+  cursor: pointer;
+}
